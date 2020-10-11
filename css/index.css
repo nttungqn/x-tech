@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/background/bg.png');
+}
+
+.container {
+    background-color: #f7f7f7;
+}
+
+.header {
+    position: relative;
+    padding: 20px 0px 0px 0px;
+}
+
+
+
+img.shadow {
+    box-shadow: 0px 10px rgb(0, 0, 0);
+}
+
+.call-now {
+    margin-top: 20px;
+}
+
+.space {
+    background-color: #f7f7f7;
+    height: 29px;
+}
+
+.author {
+    text-align: right;
+    margin-right: 50px;
+    margin-left: auto;
+    font-style: italic;
+}
+
+.edt-btn-1 {
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #37567f;
+}
+
+#button {
+    border-radius: 50px;
+    box-shadow: 0px 10px 14px -7px #276873; 
+    align-items:center;
+    margin-top: 30px;
+    background-color: #7bbbe6;
+    color: #fff;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.7) 80%)
+}
+
+a:hover #button {
+    background-color: white;
+}
+
+.edt-btn-2 {
+    font-size: 14px;
+    color: #2d4156;
+    margin: 0px 10px;
+}
+
+
+
+.edt {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 22px;
+    color: #5790dc;
+    font-style: italic;
+}
+
+img.arrow1 {
+    vertical-align: sub;
+}
+
+img.arrow2 {
+    vertical-align: super;
+}
+
+.feature {
+   margin-right: -20px;
+}
+
+
+.header .p1 {
+   float: left;
+}
+
+.header .p2 {
+    float: right;
+}
+
+.section#background {
+    text-align: center;
+}
+
+h2 {
+    color:#a7c4ea;
+    font-style:italic;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.quote {
+    background-color: #eaeaea;
+    font-style: italic;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-1 {
+
+    font-size: 12px;
+    background-image: url('../images/background/bg-footer-1.jpg');
+    padding: 5px;
+   
+}
+
+.footer-2 {
+    background-image: url('../images/background/bg-footer-2.jpg');
+    padding-top: 5px;
+}
+
+.center {
+  
+ margin: auto;
+}
